@@ -4,7 +4,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
 //mongoose
-const mongose = require('mongose')
+const mongose = require('mongoose')
 //configurar a conexão
 mongose.connect("mongodb://rm98601:0305@localhost:27017/?authSource=admin")
 .then(() => {

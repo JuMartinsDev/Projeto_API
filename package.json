@@ -12,9 +12,22 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "cors": "^2.8.5",
     "debug": "^4.4.1",
     "express": "^5.1.0",
     "http": "^0.0.1-security",
+    "mongoose": "^8.18.0",
     "mongose": "^0.0.2-security"
-  }
+  },
+  "bin": {
+    "ms-aula-2": "bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuMartinsDev/Projeto_API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuMartinsDev/Projeto_API/issues"
+  },
+  "homepage": "https://github.com/JuMartinsDev/Projeto_API#readme"
 }
